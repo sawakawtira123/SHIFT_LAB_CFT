@@ -1,0 +1,4 @@
+ru/kashtyra/alexandr/demo/DemoApplicationTests.java
+ ru.kashtyra.alexandr.demo.DemoApplicationTests
+ru/kashtyra/alexandr/demo/service/ProductServiceTest.java
+ ru.kashtyra.alexandr.demo.service.ProductServiceTest

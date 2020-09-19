@@ -1,0 +1,36 @@
+ru/kashtyra/alexandr/demo/DemoApplication.java
+ ru.kashtyra.alexandr.demo.DemoApplication
+ru/kashtyra/alexandr/demo/repositories/TypeProductRepository.java
+ ru.kashtyra.alexandr.demo.repositories.TypeProductRepository
+ru/kashtyra/alexandr/demo/repositories/PropertiesRepository.java
+ ru.kashtyra.alexandr.demo.repositories.PropertiesRepository
+ru/kashtyra/alexandr/demo/dto/entity/Product.java
+ ru.kashtyra.alexandr.demo.dto.entity.Product
+ ru.kashtyra.alexandr.demo.dto.entity.Product$ProductBuilder
+ru/kashtyra/alexandr/demo/common/configuration/WebConfig.java
+ ru.kashtyra.alexandr.demo.common.configuration.WebConfig
+ ru.kashtyra.alexandr.demo.common.configuration.WebConfig$ApiAwareRequestMappingHandlerMapping
+ru/kashtyra/alexandr/demo/common/exception/NotFoundException.java
+ ru.kashtyra.alexandr.demo.common.exception.NotFoundException
+ru/kashtyra/alexandr/demo/repositories/ProductRepository.java
+ ru.kashtyra.alexandr.demo.repositories.ProductRepository
+ru/kashtyra/alexandr/demo/common/exception/ApiFormatException.java
+ ru.kashtyra.alexandr.demo.common.exception.ApiFormatException
+ru/kashtyra/alexandr/demo/common/ConstantErrorMessage.java
+ ru.kashtyra.alexandr.demo.common.ConstantErrorMessage
+ru/kashtyra/alexandr/demo/dto/entity/Properties.java
+ ru.kashtyra.alexandr.demo.dto.entity.Properties
+ ru.kashtyra.alexandr.demo.dto.entity.Properties$PropertiesBuilder
+ru/kashtyra/alexandr/demo/common/UriPath.java
+ ru.kashtyra.alexandr.demo.common.UriPath
+ru/kashtyra/alexandr/demo/common/exception/AlreadyExistException.java
+ ru.kashtyra.alexandr.demo.common.exception.AlreadyExistException
+ru/kashtyra/alexandr/demo/common/exception/ApiException.java
+ ru.kashtyra.alexandr.demo.common.exception.ApiException
+ru/kashtyra/alexandr/demo/dto/entity/TypeProduct.java
+ ru.kashtyra.alexandr.demo.dto.entity.TypeProduct
+ ru.kashtyra.alexandr.demo.dto.entity.TypeProduct$TypeProductBuilder
+ru/kashtyra/alexandr/demo/controller/ProductController.java
+ ru.kashtyra.alexandr.demo.controller.ProductController
+ru/kashtyra/alexandr/demo/service/ProductService.java
+ ru.kashtyra.alexandr.demo.service.ProductService

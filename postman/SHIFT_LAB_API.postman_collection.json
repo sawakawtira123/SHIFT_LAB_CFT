@@ -1,0 +1,142 @@
+{
+	"info": {
+		"_postman_id": "9dd77faa-da33-4717-8e72-b22540dc077b",
+		"name": "SHIFT_LAB_API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:9000/api/1/product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9000/api/1/product",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"1",
+						"product"
+					]
+				},
+				"description": "вывод всех продуктов"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9000/api/1/product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"price\": 22500,\r\n    \"quantity\": 2,\r\n    \"manufacturer\": \"HP\",\r\n    \"typeProduct\": \"Ноутбук\",\r\n    \"property\": \"размер 24\",\r\n    \"seriesProduct\": 1237\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9000/api/1/product",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"1",
+						"product"
+					]
+				},
+				"description": "Создание продукта"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9000/api/1/product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9000/api/1/product/2",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"1",
+						"product",
+						"2"
+					]
+				},
+				"description": "Вывод продукта по идентификатору"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9000/api/1/product",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9000/api/1/product/product_type?typeProduct=Ноутбук",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"1",
+						"product",
+						"product_type"
+					],
+					"query": [
+						{
+							"key": "typeProduct",
+							"value": "Ноутбук"
+						}
+					]
+				},
+				"description": "вывод по категории продукта"
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9000/api/1/product",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"seriesProduct\": 3426,\r\n    \"price\": 155000,\r\n    \"quantity\": 5,\r\n    \"manufacturer\": \"ASUS\",\r\n    \"typeProduct\": \"Ноутбук\",\r\n    \"property\": \"15 Дюймовые\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9000/api/1/product/1",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"api",
+						"1",
+						"product",
+						"1"
+					]
+				},
+				"description": "редактирование категории"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
